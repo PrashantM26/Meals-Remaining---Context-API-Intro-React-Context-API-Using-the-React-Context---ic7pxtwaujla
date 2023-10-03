@@ -19,9 +19,7 @@ const MealsProvider = ({ children }) => {
 
     return (
         <div>
-            <MealsContext.Provider value={{ meals, tickMeal }}>
-              {children}
-            </MealsContext.Provider>
+              {childrenchildren({ meals, tickMeal })}
         </div>
     )
 };
