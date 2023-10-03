@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react";
-
+const MealsContext = createContext();
 const todaysMeals = [
     { id: 1, name: 'Baked Beans' },
     { id: 2, name: 'Baked Sweet Potatoes' },
