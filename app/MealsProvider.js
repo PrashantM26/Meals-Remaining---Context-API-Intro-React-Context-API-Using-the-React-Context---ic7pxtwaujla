@@ -19,7 +19,7 @@ const MealsProvider = ({ children }) => {
 
     return (
         <div>
-              {childrenchildren({ meals, tickMeal })}
+              {children({ meals, tickMeal })}
         </div>
     )
 };
