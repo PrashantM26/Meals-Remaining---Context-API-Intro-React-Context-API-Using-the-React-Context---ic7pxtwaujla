@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from "react";
+import React, { useState, createContext } from "react";
 export const MealsContext = createContext();
 const todaysMeals = [
     { id: 1, name: 'Baked Beans' },
