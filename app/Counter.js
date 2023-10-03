@@ -1,9 +1,9 @@
 'use client'
 import React, { useContext } from "react";
-import MealsProvider from './MealsProvider';
+import MealsContext from './MealsProvider';
 
 const Counter = () => {
-    const { meals } = useContext(MealsProvider);
+    const { meals } = useContext(MealsText);
     const remainingMeals = meals.filter((meal) => !meal.ticked).length;
     return (
         <div>
