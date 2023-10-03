@@ -1,5 +1,5 @@
 'use client'
-import React from "react";
+import React, { useContext } from "react";
 import MealsProvider from './MealsProvider';
 
 const Counter = () => {
