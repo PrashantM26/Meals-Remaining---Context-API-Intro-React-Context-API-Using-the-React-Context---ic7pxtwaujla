@@ -1,9 +1,9 @@
 'use client'
 import React, { useContext } from "react";
-import MealsProvider from './MealsProvider';
+import MealsContext from './MealsProvider';
 
 const MealsList = () => {
-    const { meals, tickMeal } = useContext(MealsProvider);
+    const { meals, tickMeal } = useContext(MealsContext);
     return (
         <div>
             <h2>Meals:</h2>
