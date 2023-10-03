@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import MealsContext from './MealsProvider';
 
 const Counter = () => {
-    const { meals } = useContext(MealsText);
+    const { meals } = useContext(MealsContext);
     const remainingMeals = meals.filter((meal) => !meal.ticked).length;
     return (
         <div>
